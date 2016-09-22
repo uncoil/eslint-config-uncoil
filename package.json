@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-shl",
+  "name": "eslint-config-strawhouse",
   "version": "1.0.0",
   "description": "Straw House Labs eslint configs",
   "repository": {
