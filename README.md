@@ -1,13 +1,13 @@
-# eslint-config-shl
+# eslint-config-strawhouse
 Straw House Labs shared eslint config
 
-`npm install --save-dev eslint-config-shl`
+`npm install --save-dev eslint-config-strawhouse`
 
 Then install the required peer dependencies.
 
 In your `.eslintrc`:
 ```
 {
-  "extends": "eslint-config-shl"
+  "extends": "eslint-config-strawhouse"
 }
 ```
