@@ -9,7 +9,7 @@ module.exports = {
     "max-len": ["warn" , 100],
     "no-multiple-empty-lines": ["error", {"max": 3, "maxEOF": 1}],
     "no-param-reassign": ["error", { "props": true }],
-    "arrow-body-style": ["error", "as-needed"],
+    "arrow-body-style": "off",
     "padded-blocks": ["error", "never"],
     "no-underscore-dangle": ["error", { "allowAfterThis": true }],
     "object-shorthand": ["error", "properties", { "avoidQuotes": true }]
