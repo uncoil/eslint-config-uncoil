@@ -12,7 +12,9 @@ module.exports = {
     "arrow-body-style": "off",
     "padded-blocks": ["error", "never"],
     "no-underscore-dangle": ["error", { "allowAfterThis": true }],
-    "object-shorthand": ["error", "properties", { "avoidQuotes": true }]
+    "object-shorthand": ["error", "properties", { "avoidQuotes": true }],
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
   },
   "env": {
     "node": true,
