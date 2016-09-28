@@ -14,7 +14,8 @@ module.exports = {
     "no-underscore-dangle": ["error", { "allowAfterThis": true }],
     "object-shorthand": ["error", "properties", { "avoidQuotes": true }],
     "react/jsx-uses-react": "error",
-    "react/jsx-uses-vars": "error"
+    "react/jsx-uses-vars": "error",
+    "id-length": ["error", {"exceptions": ["n", "m", "i", "j", "k"]}]
   },
   "env": {
     "node": true,
