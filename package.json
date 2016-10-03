@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-strawhouse",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Straw House Labs eslint configs",
   "repository": {
     "type": "git",

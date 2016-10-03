@@ -1,5 +1,11 @@
 # eslit-config-strawhouse ChangeLog
 
+## 2016-10-03, Version 1.0.4, @jakeorr
+
+### Notable changes
+
+- Switching to full airbnb ruleset ([d639a3](https://github.com/strawhouselabs/eslint-config-strawhouse/commit/d639a3))
+
 ## 2016-09-29, Version 1.0.3, @jakeorr
 
 ### Notable changes
