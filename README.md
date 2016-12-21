@@ -1,24 +1,26 @@
 # eslint-config-strawhouse
 Straw House Labs shared eslint config
 
-## Install
+This package contains an extended version of the eslint-config-airbnb ESLint rules. It requires `eslint`, `eslint-config-airbnb`, `eslint-plugin-import`, `eslint-plugin-react`, and `eslint-plugin-jsx-a11y`.
 
-Install the required peer dependencies:
+1. Ensure packages are installed with correct version numbers by running:
 
-`npm install --save-dev eslint@3.12.2 eslint-config-airbnb@13.0.0 eslint-plugin-import@2.2.0 eslint-plugin-jsx-a11y@3.0.2 eslint-plugin-react@6.8.0`
-
-Then install this package:
-
-`npm install --save-dev eslint-config-strawhouse`
-
-In your `.eslintrc`:
 ```
-{
-  "extends": "eslint-config-strawhouse"
-}
+(
+  export PKG=eslint-config-strawhouse;
+  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
+)
 ```
 
-## Updating the NPM package
+Which produces and runs a command like:
+
+```
+npm install --save-dev eslint-config-strawhouse eslint-config-airbnb@^#.#.# eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#
+```
+
+1. Add `"extends": "strawhouse"` to your .eslintrc.
+
+## Updating this NPM package
 
 1. Commit changes and merge to `master`.
 2. Update the `CHANGELOG.md` with version number and notes on changes since the last version.
