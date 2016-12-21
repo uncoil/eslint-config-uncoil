@@ -1,10 +1,15 @@
 # eslint-config-strawhouse
 Straw House Labs shared eslint config
 
-`npm install --save-dev eslint@2.13.1 eslint-config-airbnb@9.0.1 eslint-plugin-import@1.9.2 eslint-plugin-jsx-a11y@1.5.3 eslint-plugin-react@5.2.2`
-`npm install --save-dev eslint-config-strawhouse`
+## Install
 
-Then install the required peer dependencies.
+Install the required peer dependencies:
+
+`npm install --save-dev eslint@3.12.2 eslint-config-airbnb@13.0.0 eslint-plugin-import@2.2.0 eslint-plugin-jsx-a11y@3.0.2 eslint-plugin-react@6.8.0`
+
+Then install this package:
+
+`npm install --save-dev eslint-config-strawhouse`
 
 In your `.eslintrc`:
 ```

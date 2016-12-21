@@ -1,5 +1,11 @@
 # eslit-config-strawhouse ChangeLog
 
+## 2016-12-20, Version 2.0.0, @jakeorr
+
+### Notable changes
+
+- Updating dependencies, many changes. New rules enabled: see peer dependency changelogs for details.
+
 ## 2016-10-03, Version 1.0.4, @jakeorr
 
 ### Notable changes

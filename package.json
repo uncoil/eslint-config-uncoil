@@ -1,19 +1,20 @@
 {
   "name": "eslint-config-strawhouse",
-  "version": "1.0.4",
-  "description": "Straw House Labs eslint configs",
+  "version": "2.0.0",
+  "description": "Strawhouse eslint configs",
   "repository": {
     "type": "git",
     "url": "https://github.com/strawhouselabs/eslint-config-shl.git"
   },
   "peerDependencies": {
-    "eslint": "^2.13.1",
-    "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-import": "^1.9.2",
-    "eslint-plugin-jsx-a11y": "^1.5.3",
-    "eslint-plugin-react": "^5.2.2"
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.8.0"
   },
   "keywords": [
+    "strawhouse",
     "eslint",
     "eslintconfig",
     "es6",
@@ -21,6 +22,6 @@
     "react",
     "jsx"
   ],
-  "author": "Jake Orr <jake.orr@strawhouselabs.com>",
+  "author": "Jake Orr <jake.orr@strawhouse.com>",
   "license": "MIT"
 }
