@@ -1,5 +1,11 @@
 # eslit-config-strawhouse ChangeLog
 
+## 2016-12-20, Version 2.0.1, @jakeorr
+
+### Notable changes
+
+- Downgrading react-a11y plugin to v2.
+
 ## 2016-12-20, Version 2.0.0, @jakeorr
 
 ### Notable changes
