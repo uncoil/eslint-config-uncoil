@@ -1,5 +1,11 @@
 # eslit-config-strawhouse ChangeLog
 
+## 2016-12-21, Version 2.1.2, @jakeorr
+
+### Notable changes
+
+- Linting this repo.
+
 ## 2016-12-21, Version 2.1.1, @jakeorr
 
 ### Notable changes
