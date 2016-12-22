@@ -1,5 +1,12 @@
 # eslit-config-strawhouse ChangeLog
 
+## 2016-12-21, Version 2.1.1, @jakeorr
+
+### Notable changes
+
+- Fixing comma-dangle rule.
+- Adding comments.
+
 ## 2016-12-21, Version 2.1.0, @jakeorr
 
 ### Notable changes
