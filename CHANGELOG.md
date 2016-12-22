@@ -1,5 +1,12 @@
 # eslit-config-strawhouse ChangeLog
 
+## 2016-12-21, Version 2.1.0, @jakeorr
+
+### Notable changes
+
+- Customizing new rules.
+- Removing the mocha environment. If you want this, add it in a sub .eslintrc in your project's test directory.
+
 ## 2016-12-20, Version 2.0.1, @jakeorr
 
 ### Notable changes
