@@ -2,20 +2,66 @@ module.exports = {
   extends: 'airbnb',
   plugins: ['react'],
   rules: {
+    // allow the use of console
     'no-console': 'off',
+
+    // suggest template literals instead of string concatenation
     'prefer-template': 'warn',
+
+    // maximum line length
     'max-len': ['warn' , 100],
-    'no-multiple-empty-lines': ['error', {max: 3, maxEOF: 1}],
-    'no-param-reassign': ['error', { props: true }],
+
+    // disallow multiple empty lines and only one newlinen at the end
+    'no-multiple-empty-lines': ['error', {
+      max: 3,
+      maxEOF: 1
+    }],
+
+    // disallow reassignment of function parameters (including props of parameters)
+    'no-param-reassign': ['error', {
+      props: true
+    }],
+
+    // no checking for braces in arrow function body
     'arrow-body-style': 'off',
+
+    // disallow padding within blocks
     'padded-blocks': ['error', 'never'],
-    'no-underscore-dangle': ['error', { allowAfterThis: true }],
-    'object-shorthand': ['error', 'properties', { avoidQuotes: true }],
+
+    // disallow dangling underscores in identifiers
+    'no-underscore-dangle': ['error', {
+      allowAfterThis: true
+    }],
+
+    // require object literal shorthand
+    'object-shorthand': ['error', 'properties', {
+      avoidQuotes: true
+    }],
+
+    // prevent React from being incorrectly marked as unused
     'react/jsx-uses-react': 'error',
+
+    // rule to mark unused variables in JSX
     'react/jsx-uses-vars': 'error',
-    'id-length': ['error', {exceptions: ['n', 'm', 'i', 'j', 'k']}],
-    'comma-dangle': ['error', { functions: 'never' }],
-    'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
+
+    // enforce minimum 2-char variable names
+    'id-length': ['error', {
+      exceptions: ['n', 'm', 'i', 'j', 'k', 'x', 'y', 'z']
+    }],
+
+    // require trailing commas in multiline
+    'comma-dangle': ['error', {
+      arrays: 'always-multiline',
+      objects: 'always-multiline',
+      imports: 'always-multiline',
+      exports: 'always-multiline',
+      functions: 'ignore',
+    }]
+
+    // allow either .js or .jsx for files containing JSX
+    'react/jsx-filename-extension': ['error', {
+      extensions: ['.js', '.jsx']
+    }],
   },
   env: {
     node: true,
