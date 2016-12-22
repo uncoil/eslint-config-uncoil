@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-strawhouse",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Strawhouse eslint configs",
   "repository": {
     "type": "git",
@@ -23,5 +23,12 @@
     "jsx"
   ],
   "author": "Jake Orr <jake.orr@strawhouse.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0"
+  }
 }

@@ -9,17 +9,17 @@ module.exports = {
     'prefer-template': 'warn',
 
     // maximum line length
-    'max-len': ['warn' , 100],
+    'max-len': ['warn', 100],
 
     // disallow multiple empty lines and only one newlinen at the end
     'no-multiple-empty-lines': ['error', {
       max: 3,
-      maxEOF: 1
+      maxEOF: 1,
     }],
 
     // disallow reassignment of function parameters (including props of parameters)
     'no-param-reassign': ['error', {
-      props: true
+      props: true,
     }],
 
     // no checking for braces in arrow function body
@@ -30,12 +30,12 @@ module.exports = {
 
     // disallow dangling underscores in identifiers
     'no-underscore-dangle': ['error', {
-      allowAfterThis: true
+      allowAfterThis: true,
     }],
 
     // require object literal shorthand
     'object-shorthand': ['error', 'properties', {
-      avoidQuotes: true
+      avoidQuotes: true,
     }],
 
     // prevent React from being incorrectly marked as unused
@@ -46,7 +46,7 @@ module.exports = {
 
     // enforce minimum 2-char variable names
     'id-length': ['error', {
-      exceptions: ['n', 'm', 'i', 'j', 'k', 'x', 'y', 'z']
+      exceptions: ['n', 'm', 'i', 'j', 'k', 'x', 'y', 'z'],
     }],
 
     // require trailing commas in multiline
@@ -56,11 +56,11 @@ module.exports = {
       imports: 'always-multiline',
       exports: 'always-multiline',
       functions: 'ignore',
-    }]
+    }],
 
     // allow either .js or .jsx for files containing JSX
     'react/jsx-filename-extension': ['error', {
-      extensions: ['.js', '.jsx']
+      extensions: ['.js', '.jsx'],
     }],
   },
   env: {
