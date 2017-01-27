@@ -1,5 +1,13 @@
 # eslit-config-strawhouse ChangeLog
 
+## 2017-01-27, Version 2.1.3, @jakeorr
+
+### Notable changes
+
+- Removing short variable name rule.
+- Adding option to no-plusplus rule to allow use in for loop afterthought.
+- Enforcing indented chained calls.
+
 ## 2016-12-21, Version 2.1.2, @jakeorr
 
 ### Notable changes
