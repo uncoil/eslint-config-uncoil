@@ -9,7 +9,10 @@ module.exports = {
     'prefer-template': 'warn',
 
     // maximum line length
-    'max-len': ['warn', 100],
+    'max-len': ['warn', 100, {
+      'ignoreTrailingComments': true, // don't count trailing comments towards max-len.
+      'ignoreUrls': true, // don't count lines that contain a URL towards this
+    }],
 
     // disallow multiple empty lines and only one newlinen at the end
     'no-multiple-empty-lines': ['error', {
