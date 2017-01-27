@@ -44,11 +44,6 @@ module.exports = {
     // rule to mark unused variables in JSX
     'react/jsx-uses-vars': 'error',
 
-    // enforce minimum 2-char variable names
-    'id-length': ['error', {
-      exceptions: ['n', 'm', 'i', 'j', 'k', 'x', 'y', 'z'],
-    }],
-
     // require trailing commas in multiline
     'comma-dangle': ['error', {
       arrays: 'always-multiline',
