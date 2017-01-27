@@ -40,8 +40,8 @@ module.exports = {
     'object-shorthand': ['error', 'properties', {
       avoidQuotes: true,
     }],
-    
-    'no-plusplus': ['error', { 
+
+    'no-plusplus': ['error', {
       // e.g., allow for (let i = 0; i < 10; i++) but no other use of ++
       allowForLoopAfterthoughts: true,
     }],
@@ -65,6 +65,23 @@ module.exports = {
     'react/jsx-filename-extension': ['error', {
       extensions: ['.js', '.jsx'],
     }],
+
+    // override of airbnb indent rule to enable MemberExpressions option
+    'indent': ['error', 2, {
+      'SwitchCase': 1,
+      'VariableDeclarator': 1,
+      'outerIIFEBody': 1,
+      // enforce indent for chained calls
+      'MemberExpression': 1,
+      'FunctionDeclaration': {
+        'parameters': 1,
+        'body': 1
+      },
+      'FunctionExpression': {
+        'parameters': 1,
+        'body': 1
+      }
+    }]
   },
   env: {
     node: true,
