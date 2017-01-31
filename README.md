@@ -3,7 +3,13 @@ Straw House Labs shared eslint config
 
 This package contains an extended version of the eslint-config-airbnb ESLint rules. It requires `eslint`, `eslint-config-airbnb`, `eslint-plugin-import`, `eslint-plugin-react`, and `eslint-plugin-jsx-a11y`.
 
-1. Ensure packages are installed with correct version numbers by running:
+## Steps to install
+
+1. Ensure packages are installed with correct version numbers (see below).
+1. If your project uses yarn, run `yarn` to update your yarn.lock for the new packages.
+1. Add `"extends": "strawhouse"` to your .eslintrc.
+
+The following command will install the correct versions of the required packages:
 
 ```
 (
@@ -12,13 +18,11 @@ This package contains an extended version of the eslint-config-airbnb ESLint rul
 )
 ```
 
-Which produces and runs a command like:
+The above command produces and runs a command like:
 
 ```
 npm install --save-dev eslint-config-strawhouse eslint-config-airbnb@^#.#.# eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#
 ```
-
-1. Add `"extends": "strawhouse"` to your .eslintrc.
 
 ## Updating this NPM package
 
