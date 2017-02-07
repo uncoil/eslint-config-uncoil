@@ -65,6 +65,14 @@ module.exports = {
     'react/jsx-filename-extension': ['error', {
       extensions: ['.js', '.jsx'],
     }],
+    
+    
+    // require newlines for closing curlies iff the object itself is on multiple lines.
+    'object-curly-newline': ['error', { 'multiline': true }],
+    
+    // require properties to be on their own line iff there are multiple lines
+    // allowMultiplePropertiesPerLine allows there to be EITHER all properties on one line, or all on their own line, but not both.
+    'object-property-newline': ['error', { 'allowMultiplePropertiesPerLine': true }],
 
     // override of airbnb indent rule to enable MemberExpressions option
     'indent': ['error', 2, {
