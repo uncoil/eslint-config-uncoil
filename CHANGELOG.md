@@ -1,5 +1,11 @@
 # eslit-config-strawhouse ChangeLog
 
+## 2017-02-07, Version 2.1.4, @gburtini
+
+### Notable changes
+
+- Adding rules for enforcing object parameters on newlines when appropriate.
+
 ## 2017-01-27, Version 2.1.3, @jakeorr
 
 ### Notable changes
