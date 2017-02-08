@@ -1,5 +1,11 @@
 # eslit-config-strawhouse ChangeLog
 
+## 2017-02-08, Version 2.1.5, @jakeorr
+
+### Notable changes
+
+- Removing the end of line closing bracket rule (object-curly-newline).
+
 ## 2017-02-07, Version 2.1.4, @gburtini
 
 ### Notable changes
