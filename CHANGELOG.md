@@ -1,5 +1,13 @@
 # eslit-config-strawhouse ChangeLog
 
+## 2017-04-24, Version 3.0.0, @jakeorr
+
+### Notable changes
+
+- Update to support using Prettier
+- Prettifying index.js
+- Adding "arrow-parens": "as-needed" (Prettier support)
+
 ## 2017-02-08, Version 2.1.5, @jakeorr
 
 ### Notable changes
