@@ -1,5 +1,11 @@
 # eslit-config-strawhouse ChangeLog
 
+## 2017-04-24, Version 3.0.1, @jakeorr
+
+### Notable changes
+
+- Fixing arrow-parens rule
+
 ## 2017-04-24, Version 3.0.0, @jakeorr
 
 ### Notable changes

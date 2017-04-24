@@ -118,7 +118,7 @@ module.exports = {
     ],
 
     // Allows omiting parens for arrow functions when there is only one argument.
-    'arrow-parens': 'as-needed',
+    'arrow-parens': ['error', 'as-needed'],
   },
   env: {
     node: true,
