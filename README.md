@@ -1,8 +1,9 @@
-# eslint-config-strawhouse (Compatible with [Prettier](https://github.com/prettier/prettier))
+# Out-of-the-box [Prettier](https://github.com/prettier/prettier)-compatible ESLint Configuration
+## `eslint-config-strawhouse`
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-Straw House Labs shared eslint config
+Strawhouse's very own, opinionated eslint config, out-of-the-box ready for use with Prettier.
 
 This package contains an extended version of the eslint-config-airbnb ESLint rules. It requires `eslint`, `eslint-config-airbnb`, `eslint-plugin-import`, `eslint-plugin-react`, and `eslint-plugin-jsx-a11y`.
 
