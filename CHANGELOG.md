@@ -1,5 +1,11 @@
 # eslit-config-strawhouse ChangeLog
 
+## 2017-05-18, Version 3.0.2, @jakeorr
+
+### Notable changes
+
+- Turning off newline-per-chained-call for Prettier support
+
 ## 2017-04-24, Version 3.0.1, @jakeorr
 
 ### Notable changes

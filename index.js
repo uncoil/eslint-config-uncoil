@@ -119,6 +119,9 @@ module.exports = {
 
     // Allows omiting parens for arrow functions when there is only one argument.
     'arrow-parens': ['error', 'as-needed'],
+
+    // Support for Prettier formating - it will chain all the way to lineLength, ┐(￣ヘ￣;)┌
+    'newline-per-chained-call': 'off',
   },
   env: {
     node: true,
