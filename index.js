@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'airbnb',
+  extends: ['airbnb', 'prettier'],
   plugins: ['react'],
   rules: {
     // allow the use of console
