@@ -1,5 +1,11 @@
 # eslit-config-strawhouse ChangeLog
 
+## 2017-06-05, Version 3.0.3, @distrill
+
+### Notable changes
+
+- Extend eslint-config-prettier
+
 ## 2017-05-18, Version 3.0.2, @jakeorr
 
 ### Notable changes
