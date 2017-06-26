@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-strawhouse",
-  "version": "3.0.3",
-  "description": "Strawhouse eslint configs",
+  "version": "3.0.4",
+  "description": "Strawhouse eslint configuration",
   "repository": {
     "type": "git",
-    "url": "https://github.com/strawhouselabs/eslint-config-shl.git"
+    "url": "https://github.com/strawhouselabs/eslint-config-strawhouse.git"
   },
   "peerDependencies": {
     "eslint": "^3.12.2",
