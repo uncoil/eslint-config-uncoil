@@ -1,5 +1,12 @@
 # eslit-config-strawhouse ChangeLog
 
+## 2017-06-28, Version 3.0.4, @gburtini, @distrill
+
+### Notable changes
+
+- Updating readme to use yarn: @distrill
+- Minor cleanup and improvements: @gburtini
+
 ## 2017-06-05, Version 3.0.3, @distrill
 
 ### Notable changes
