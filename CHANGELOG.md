@@ -1,5 +1,11 @@
 # eslit-config-strawhouse ChangeLog
 
+# 2017-07-03, Version 4.0.0, @gburtini
+
+- Updating eslint-config-airbnb to 15.0.1 (latest).
+- Compatibility with eslint-config-react-app
+- Update eslint-config-prettier to 2.3.0 (latest).
+
 ## 2017-06-28, Version 3.0.4, @gburtini, @distrill
 
 ### Notable changes
