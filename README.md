@@ -29,7 +29,7 @@ The following command will install the correct versions of the required packages
 The above command produces and runs a command like:
 
 ```
-npm install --save-dev eslint-config-strawhouse eslint-config-airbnb@^#.#.# eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#
+yarn add --dev eslint-config-strawhouse eslint-config-airbnb@^#.#.# eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#
 ```
 
 ## Updating this NPM package
