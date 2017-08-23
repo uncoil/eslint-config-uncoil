@@ -1,12 +1,14 @@
-Two types of functions:
+React Function Naming Guidelines
+================================
+
+We've identified two types of functions where we have instituted naming conventions:
 1) functions that respond to some event or something the user has done
 2) functions that perform an action
 
-Type 1 is the type we already talked about. Handlers passed into components as props will be prefixed with "on". Handlers that are component class methods will be prefixed with "handle". This convention will keep handler naming consistent and avoid naming collisions.
+For the first type (1), handlers passed into components as props must be prefixed with `on`. Handlers which are internal, such as component class methods will be prefixed with `handle`. This convention will keep handler naming consistent and avoid naming collisions.
 
 Example:
-
-```
+```js
 class HelloComponent extends Component {
   // Handler class method, prefixed with "handle"
   handleClick() {
@@ -24,7 +26,7 @@ class HelloComponent extends Component {
 }
 ```
 
-Type 2 are functions that perform an action. Think "initializeFields" or "buildListItem". Instead of being in response to something the user does, these functions perform an action on behalf of the user. Their names should be verbs and they imply a contractual relationship. In other words, when you call them you expect something to be done.
+Type 2 are functions which perform an action. Think `initializeField` or `buildListItem`. Instead of being in response to something the user does, these functions perform an action on behalf of the user. Their names, like non-React function names, should be verbs. These functions generally imply a contractual relationship -- when you call them you expect something specific to be done or a specific kind of value to be returned.
 
 Comparison Example:
 
