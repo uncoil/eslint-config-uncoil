@@ -7,6 +7,10 @@ Strawhouse's very own, opinionated eslint config, out-of-the-box ready for use w
 
 This package contains an extended version of the eslint-config-airbnb ESLint rules. It requires `eslint`, `eslint-config-airbnb`, `eslint-plugin-import`, `eslint-plugin-react`, and `eslint-plugin-jsx-a11y`.
 
+## React function naming conventions
+
+See [this document](react_function_naming_conventions.md) for details on Strawhouse function naming conventions in react.
+
 ## Steps to install
 
 1. Ensure packages are installed with correct version numbers (see below).
