@@ -1,36 +1,28 @@
 {
   "name": "eslint-config-strawhouse",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Strawhouse eslint configuration",
   "repository": {
     "type": "git",
     "url": "https://github.com/strawhouselabs/eslint-config-strawhouse.git"
   },
   "peerDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^15.0.1",
-    "eslint-config-prettier": "^2.3.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^5.0.1",
-    "eslint-plugin-react": "^7.0.1"
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
   },
-  "keywords": [
-    "strawhouse",
-    "eslint",
-    "eslintconfig",
-    "es6",
-    "es2015",
-    "react",
-    "jsx"
-  ],
+  "keywords": ["strawhouse", "eslint", "eslintconfig", "es6", "es2015", "react", "jsx"],
   "author": "Jake Orr <jake.orr@strawhouse.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^15.0.1",
-    "eslint-config-prettier": "^2.3.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^5.0.1",
-    "eslint-plugin-react": "^7.0.1"
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
   }
 }

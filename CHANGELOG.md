@@ -1,5 +1,9 @@
 # eslit-config-strawhouse ChangeLog
 
+# 2017-10-27, Version 5.0.0, @jakeorr
+
+- Updating package dependencies to support eslint v4.9.0
+
 # 2017-07-03, Version 4.0.0, @gburtini
 
 - Updating eslint-config-airbnb to 15.0.1 (latest).
