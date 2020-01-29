@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-uncoil",
-  "version": "5.0.1",
+  "version": "6.0.0",
   "description": "Uncoil eslint configuration",
   "repository": {
     "type": "git",
