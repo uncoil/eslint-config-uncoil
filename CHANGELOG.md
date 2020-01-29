@@ -1,5 +1,9 @@
 # eslint-config-uncoil ChangeLog
 
+# 2020-01-29, Version 6.0.1, @jakeorr
+
+- Correct eslint-plugin-react-hooks version for eslint-config-airbnb peer dependency
+
 # 2020-01-29, Version 6.0.0, @jakeorr
 
 - Update to eslint 6
