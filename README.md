@@ -17,6 +17,7 @@ See [this document](react_function_naming_conventions.md) for details on Uncoil 
 1.  Ensure packages are installed with correct version numbers (see below).
 1.  If your project uses yarn, run `yarn` to update your yarn.lock for the new packages.
 1.  Add `"extends": "uncoil"` to your .eslintrc.
+1.  Copy `.prettierrc` from another project.
 
 The following command will install the correct versions of the required packages:
 
